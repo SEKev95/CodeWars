@@ -1,4 +1,4 @@
-// String repeat
-function repeatStr (n, s) {
-  return `${s.repeat(n)}`;
+// Grasshopper - Terminal game move function
+function move (position, roll) {
+   return position + roll * 2
 }
